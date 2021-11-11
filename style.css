@@ -35,6 +35,8 @@ body{
     background-color: chocolate;
     padding: 20px;
   }
+
+  
   .fimg {
     background-color: #aaa;
     width: 100%;
@@ -45,3 +47,10 @@ body{
     text-align: center;
     background: #ddd;
   }
+  
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  
